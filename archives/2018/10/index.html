@@ -107,6 +107,16 @@
 
 
 
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'wty1kuy',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="“本思已忘怀&lt;br&#x2F;&gt;徒留侬身, 莫非君之遗物">
@@ -504,6 +514,8 @@
 
 
 
+  
+
 
 
   
@@ -519,6 +531,11 @@
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/reading_progress/reading_progress.js"></script>
   
 
 

@@ -107,6 +107,16 @@
 
 
 
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'wty1kuy',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
 
   <meta name="keywords" content="卫良中心">
 <meta property="og:type" content="article">
@@ -297,6 +307,8 @@
   
   
 
+  
+    <div class="reading-progress-bar"></div>
   
 
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
@@ -603,7 +615,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#黄泉"><span class="nav-number">1.</span> <span class="nav-text">黄泉</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#石楠花"><span class="nav-number">2.</span> <span class="nav-text">石楠花</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#六博"><span class="nav-number">3.</span> <span class="nav-text">六博</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#偎寒"><span class="nav-number">4.</span> <span class="nav-text">偎寒</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#黄泉"><span class="nav-text">黄泉</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#石楠花"><span class="nav-text">石楠花</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#六博"><span class="nav-text">六博</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#偎寒"><span class="nav-text">偎寒</span></a></li></ol></div>
             
 
           </div>
@@ -702,6 +714,8 @@
 
 
 
+  
+
 
 
   
@@ -717,6 +731,11 @@
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/reading_progress/reading_progress.js"></script>
   
 
 
